@@ -1,0 +1,10 @@
+Cor dos botões
+#13a1eb  azul
+
+Fundo: 
+Preto
+
+
+Textos: 
+azul, branco e preto 
+#13a1eb

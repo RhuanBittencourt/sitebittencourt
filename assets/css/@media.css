@@ -1,0 +1,461 @@
+@media (min-width:1024px) and (max-width:1200px) {
+    .container {
+        max-width: 900px;
+    }
+
+    
+
+    header {
+        border-radius: 0;
+        border-bottom: 2px solid #139feb;
+    }
+    .button {
+        width: 300px;
+        font-size: 1rem;
+    }
+    h2{
+        font-size:2.1rem;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    #title-areas {
+        font-size: 1.5rem;
+    }
+
+    .como-ajudar-areas p {
+        font-size: 1rem;
+    }
+
+    .diferenciais {
+        flex-direction: row;
+    }
+    .diferenciais img,t {
+        width: 300px;
+    }
+
+
+    .text-content .text-1 {
+        font-size: 2.9rem;
+    }
+
+    .footer-area h3 {
+        font-size: 3rem;
+        margin-right: 10px;
+    }
+    .footer-button {
+        margin-top: 0;
+        font-size: 1rem;
+        width: 300px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1020px) {
+    .container {
+        max-width: 600px;
+    }
+    .header-area img {
+        width: 150px;
+        
+    }
+
+    .header-area {
+        
+    }
+
+    .menu-area li {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+    .button {
+        font-size: 1rem;
+        width: 300px;
+        padding: 20px;  
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+
+    .como-ajudar-areas .area1 .area1-title,
+    .como-ajudar-areas .area2 .area2-title,
+    .como-ajudar-areas .area3 .area3-title,
+    .como-ajudar-areas .area4 .area4-title {
+    font-size: 1.1rem;
+    font-family:'Agrandir';
+    }
+
+    .como-ajudar-areas p {
+        font-size: 0.9rem;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    .como-ajudar-areas .area1, .area2 {
+        margin-bottom: 0; 
+    }
+
+    .content-circle img {
+        width: 60px;
+        margin-right: 20px;
+    }
+
+    .como-ajudar-areas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+
+    .diferenciais .dif-1 img,
+    .diferenciais .dif-2 img,
+    .diferenciais .dif-3 img,
+    .diferenciais .dif-4 img {  
+        width: 70px;
+        height: 70px;
+    }
+
+    .diferenciais .dif-1 .dif-text,
+    .diferenciais .dif-2 .dif-text,
+    .diferenciais .dif-3 .dif-text,
+    .diferenciais .dif-4 .dif-text {
+        font-size: 1.3rem;
+        
+    }
+        
+    .projetos {
+        flex-direction: column;
+    }
+
+        .carrosel {
+            width: 350px;
+            height: 500px;
+            margin:auto;
+            
+            
+            
+            
+        }
+
+    .carrosel img {
+        width: 31%;
+        height: 430px;
+    }
+
+    #carrosel2 {
+       margin-bottom: 100px;
+    }
+    #ultimo-carrosel {
+        margin: auto;
+    }
+
+    .perguntas summary {
+        font-size: 1.2rem;
+        
+    }
+
+
+
+
+    .text-content .text-1 {
+        font-size: 1.5rem;
+    }
+
+    .footer-area h3 {
+        font-size: 2rem;
+        margin-right: 20px;
+    }
+    .footer-button {
+        font-size: 1rem;
+        margin-right: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:767px) {
+    
+    .container {
+        max-width: 90%;
+    }
+    .menu-burguer-area {
+        display: block;
+    }
+    .menu-area {
+        display: none;
+    }
+
+    .menu-burguer {
+        width: 35px;
+        width: 30px;
+        position: absolute;
+        z-index: 999;
+        right: 15px;
+        
+    }
+    .line {
+        background-color: #fff;
+        width: 100%;
+        height: 4px;
+        margin: 6px 0;
+        border-radius: 2px;
+        transition-duration: 0.3s;
+        
+    }
+
+    .menu-burguer-area .menu-faketrigger {
+        position: absolute;
+        z-index: 1000;
+        width: 35px;
+        height: 30px;
+        opacity: 0;
+        cursor: pointer;
+        right: 15px;
+    }
+
+    .menu-burguer-area ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position:absolute;
+        z-index: 998;
+        width: 100vw;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        margin-right: -100vw;
+        background-color: #000 ;
+        transition: all ease .2s;
+       
+    }
+
+    .menu-burguer-area ul li {
+        
+        list-style: none;
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+    .menu-burguer-area ul a:hover {
+        color: #139feb;
+    }
+
+
+
+    .menu-burguer-area ul li a{
+        color: #ffff;
+        
+    }
+
+    .menu-burguer-area .menu-faketrigger:checked ~ ul {
+        margin-right: 0;
+    }
+
+
+
+
+    .menu-burguer-area .menu-faketrigger:checked ~ .menu-burguer {
+        /* background-color: #000; */
+    }
+
+    .menu-burguer-area .menu-faketrigger:checked ~ .menu-burguer .line:nth-child(1) {
+        
+        transform:rotate(45deg) translate(7px, 7px) ;
+    }
+    .menu-burguer-area .menu-faketrigger:checked ~ .menu-burguer .line:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-burguer-area .menu-faketrigger:checked ~ .menu-burguer .line:nth-child(3) {
+        
+        transform:rotate(-45deg) translate(8px, -9px) ;
+    }
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    header {
+        height: 100px;
+        
+
+    }
+
+    .header-area {
+        
+        padding: 20px;
+           
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    #menu-on ul {
+        display: block;
+        text-align: center;
+    }
+
+    
+
+    .banner-content h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .como-ajudar-areas {
+        grid-template-columns: 1fr;
+    }
+
+    .content-circle img {
+        width: 60px;
+        margin-right: 15px;
+    }
+
+    .como-ajudar-areas .area1 .area1-title,
+     .como-ajudar-areas .area2 .area2-title,
+      .como-ajudar-areas .area3 .area3-title,
+       .como-ajudar-areas .area4 .area4-title {
+        font-size: 1rem;
+        
+    }
+    .como-ajudar-areas p {
+        font-size: 0.9rem;
+        
+    }
+
+    .como-ajudar-areas .area1,
+    .como-ajudar-areas .area2,
+    .como-ajudar-areas .area3,
+    .como-ajudar-areas .area4  {
+        padding-left: 0;
+    }
+
+
+    .diferenciais {
+        grid-template-columns: 1fr;
+    }
+    .diferenciais .dif-2, .diferenciais .dif-4 {
+        margin-left: 0px;
+    }
+
+    .diferenciais .dif-1 img,
+    .diferenciais .dif-2 img,
+    .diferenciais .dif-3 img,
+    .diferenciais .dif-4 img {  
+        width: 50px;
+        height: 50px;
+    }
+
+    .diferenciais .dif-1 .dif-text,
+    .diferenciais .dif-2 .dif-text,
+    .diferenciais .dif-3 .dif-text,
+    .diferenciais .dif-4 .dif-text {
+        font-size: 1.2rem;
+        
+    }
+
+
+    #summary-prime  {
+        padding-bottom: 2px;
+    }
+
+    #summary-prime img {
+        margin-bottom: 6px;
+    }
+    
+    summary {
+        flex-direction: column;
+    }
+    summary img {
+        margin-top: 20px;
+        width: 20px;
+    }
+
+    .area-perguntas summary {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+
+
+    
+
+
+    .projetos {
+        flex-direction: column;
+    }
+
+    .carrosel {
+        width: 250px;
+        margin-right: 0;
+        margin: 30px 0;
+    }
+    #carrosel2 {
+        margin-top: 30px;
+    }
+
+    
+    .footer-area {
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0;
+    }
+    .footer-area h3 {
+        font-size: 2rem;
+    }
+
+    .footer-button {
+        font-size: 1rem;
+        width: 250px;
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+
+    .button {
+        width: 250px;
+        font-size: 1rem;
+        padding: 20px 0;
+    }
+
+    .whatsapp-button {
+        display: none;
+    }
+
+}
+
