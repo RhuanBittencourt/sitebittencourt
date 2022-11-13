@@ -9,51 +9,40 @@
     <title>Rhuann Bittencourt</title>
 </head>
 <body>
-    <header >
-        <div class="header-area container">
-             <div class="logo">
-                <a href=""><img src="assets/image/logo-branca.png" alt=""></a>
+    <header id="header">
+        <div class="content-header container">
+            <a href="" id="logo"><img src="assets/image/logo-branca.png" width="100px" alt=""></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="">Inicio</a></li>
+                <li><a href="#divisoria2">Projetos</a></li>
+                <li><a href="#duvidas">Dúvidas</a></li>
+                <li><a href="#contato2">Contato</a></li>
                 
-             </div>
-
-             <div class="menu">
-               
-                <div class="menu-burguer-area">
-
-                    <input type="checkbox" class="menu-faketrigger">
-
-                    <div class="menu-burguer">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
-                    <ul>
-                        <li><a href="#inicio">INICIO</a></li>
-                        <li> <a href="#projetos">PROJETOS</a></li>
-                        <li> <a href="#duvidas">DÚVIDAS</a></li>
-                        <li id="contato"><a href="#contato2">CONTATO</a></li>
-                    </ul>
-                </div>
-
-
-                <nav class="menu-area">
-                    <ul>
-                        <li><a href="#inicio">INICIO</a></li>
-                        <li> <a href="#projetos">PROJETOS</a></li>
-                        <li> <a href="#duvidas">DÚVIDAS</a></li>
-                        <li id="contato"><a href="#contato2">CONTATO</a></li>
-                    </ul>
-                </nav>
-             </div>
+                
+            </ul>
+        </nav>
         </div>
+        
     </header>
 
     <main>
         <section class="banner" id="inicio">
             <div class="banner-content container">
-                <h1>Transforme sua <br> <span>presença digital</span>  <br> em oportunidades de <br> vendas.</h1>
-                <a href="" class="button">QUERO MEU SITE AGORA!!</a>
+                <div class="banner-text">
+                    <h1>Transforme sua <br> <span>presença digital</span>  <br> em oportunidades <br> de vendas.</h1>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5522988098858&text=Ol%C3%A1%2C%20desejo%20fazer%20um%20or%C3%A7amento!" class="button">QUERO MEU SITE AGORA!!</a>
+                </div>
+                
+
+                <div class="mockup">
+                    <img src="assets/image/elemento.png" alt="">
+                </div>
             </div>
+            
         </section>
 
         <section class="divisoria ">
@@ -173,7 +162,7 @@
         </section>
         
 
-        <section class="projetos-area" id="projetos"> 
+        <section class="projetos-area" > 
             <div class="try">
                 <img src="/assets/icons/triangulo.png" alt="">
             </div>
@@ -219,7 +208,7 @@
                     </ul>
                 </div>
             </div>
-            <a href="" class="button">QUERO MEU SITE AGORA!!</a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5522988098858&text=Ol%C3%A1%2C%20desejo%20fazer%20um%20or%C3%A7amento!" class="button">QUERO MEU SITE AGORA!!</a>
             
         </section>
 
@@ -277,14 +266,27 @@
                 e faça seu <br>
                 orçamento:
             </h3>
-            <button class="footer-button">QUERO MEU SITE AGORA!!</button>
+
+            <div id="h3-2">
+                Entre em contato
+                e faça seu 
+                orçamento:
+            </div>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5522988098858&text=Ol%C3%A1%2C%20desejo%20fazer%20um%20or%C3%A7amento!"><button  class="footer-button">QUERO MEU SITE AGORA!!</button></a> 
         </div>
+        <div class="seta-area" id="cima">
+            <a href="#header"><img src="assets/icons/acima.png" alt="" id="#seta-cima"></a>
+        </div>
+        
     </footer>
-    <a href="" class="whatsapp-button">
+    
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=5522988098858&text=Ol%C3%A1%2C%20desejo%20fazer%20um%20or%C3%A7amento!" class="whatsapp-button">
         <img src="assets/icons/whatsapp (1).png" alt="">
     </a>
 
-    <script src="menu.js"></script>
+    
+
+    <script src="assets/js/script.js"></script>
     
 </body>
 </html>
