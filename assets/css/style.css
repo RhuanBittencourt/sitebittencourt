@@ -405,7 +405,9 @@ a {
 .diferenciais #velocidade {
     
 }
-
+.projetos88 {
+    display: flex;
+}
 
 .projetos {
     display: flex;
@@ -425,8 +427,15 @@ a {
     
 
 }
-.projetos-area a {
+.projeto1 a {
+    color: #fff;
+}
 
+.projeto1 img {
+    width: 300px;
+    height: 150px;
+    border: solid 4px #13a1eb;
+    margin-right: 30px;
 }
 
 .try {
